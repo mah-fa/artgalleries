@@ -1,0 +1,733 @@
+@font-face {
+  font-family: 'ultralight';
+  src: url('../font/ultralight.eot');
+  src: url('../font/ultralight.eot?#iefix') format('embedded-opentype'), url('../font/ultralight.woff2') format('woff2'), url('../font/ultralight.woff') format('woff'), url('../font/ultralight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lightexpanded';
+  src: url('../font/lightexpanded.eot');
+  src: url('../font/lightexpanded.eot?#iefix') format('embedded-opentype'), url('../font/lightexpanded.woff2') format('woff2'), url('../font/lightexpanded.woff') format('woff'), url('../font/lightexpanded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bold';
+  src: url('../font/bold.eot');
+  src: url('../font/bold.eot?#iefix') format('embedded-opentype'), url('../font/bold.woff2') format('woff2'), url('../font/bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "artgallery";
+  src: url("../font/artgallery.eot");
+  src: url("../font/artgallery.eot?#iefix") format("embedded-opentype"), url("../font/artgallery.woff") format("woff"), url("../font/artgallery.ttf") format("truetype"), url("../font/artgallery.svg#artgallery") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: "artgallery" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "artgallery" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pet68:before {
+  content: "a";
+}
+.icon-phone378-1:before {
+  content: "b";
+}
+.icon-postcard3:before {
+  content: "c";
+}
+.icon-faaa-02:before {
+  content: "d";
+}
+.icon-ennn-01:before {
+  content: "e";
+}
+.fa {
+  float: ;
+  text-align: right !important;
+  direction: rtl !important;
+}
+.fa-margin-top {
+  margin-top: 5px !important;
+}
+@media screen and (min-width: 1200px) {
+  #side {
+    width: 30.166%;
+    height: 100vh;
+    min-height: 650px;
+    float: right;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: #784d5b;
+  }
+}
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: #784d5b;
+  float: left;
+}
+@media screen and (min-width: 1200px) {
+  #header {
+    height: 130px;
+  }
+}
+#logo {
+  width: 180px;
+  height: 28px;
+  margin: 16px auto;
+}
+@media screen and (min-width: 1200px) {
+  #logo {
+    width: 270px;
+    height: 42px;
+    margin: 76px auto 0px 24px;
+  }
+}
+#logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#motto {
+  width: 100%;
+  height: 30px;
+  float: left;
+  padding-top: 5px;
+  box-sizing: border-box;
+  border-bottom: 2px dotted #784d5b;
+}
+@media screen and (min-width: 1200px) {
+  #motto {
+    padding-left: 28px;
+    border-bottom: 2px dotted white;
+  }
+}
+#motto p {
+  font-family: 'Raleway', 'ultralight';
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  #motto p {
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    margin-top: -20px;
+  }
+}
+#menu {
+  width: 100%;
+  height: 60px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+@media screen and (min-width: 1200px) {
+  #menu {
+    width: 55%;
+    height: 200px;
+    margin-top: 30px;
+  }
+}
+#menu .wrapper {
+  width: 90%;
+  max-width: 300px;
+  height: 100%;
+  margin: 0px auto;
+}
+@media screen and (min-width: 515px) and (max-width: 748px) {
+  #menu .wrapper {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 749px) and (max-width: 982px) {
+  #menu .wrapper {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 983px) and (max-width: 1199px) {
+  #menu .wrapper {
+    width: 300px;
+  }
+}
+.menu-item {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  font-size: 28px;
+  color: #784d5b;
+}
+@media screen and (min-width: 1200px) {
+  .menu-item {
+    color: white;
+    width: 100%;
+    height: 25%;
+    display: block;
+  }
+}
+.menu-item i {
+  font-family: 'artgallery';
+}
+@media screen and (min-width: 1200px) {
+  .menu-item i {
+    display: none;
+  }
+}
+.menu-item a {
+  text-decoration: none;
+  color: #784d5b;
+}
+@media screen and (min-width: 1200px) {
+  .menu-item a {
+    color: white;
+  }
+}
+.menu-item a:hover, .menu-item a:focus, .menu-item a:active {
+  text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .menu-item a:hover, .menu-item a:focus, .menu-item a:active {
+    color: #F4FFAB;
+  }
+}
+.menu-item p {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .menu-item p {
+    display: block;
+    font-family: 'Raleway', 'ultralight';
+    font-size: 18px;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: ;
+  }
+}
+.menu-item p span {
+  color: ;
+}
+#date {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  #date {
+    display: block;
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    float: left;
+    clear: both;
+    margin-top: 50px;
+  }
+}
+#date #first-digit {
+  width: 30px;
+  height: 40px;
+  float: left;
+  margin-left: 20px;
+  background-color: red;
+}
+#date #second-digit {
+  width: 30px;
+  height: 40px;
+  float: left;
+  background-color: green;
+}
+#date #month {
+  width: 100px;
+  height: 40px;
+  float: left;
+  margin-left: 20px;
+  background-color: yellow;
+}
+#date p {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 27px;
+  font-weight: 400;
+  color: #784d5b;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+#follow {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  #follow {
+    display: block;
+    width: 100%;
+    height: ;
+    float: left;
+    margin-top: 50px;
+  }
+}
+#follow p {
+  font-family: 'RaleWay';
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+  padding-left: 20px;
+}
+#follow p a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+#follow p a:hover, #follow p a:focus, #follow p a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+#follow p span {
+  margin-left: 10px;
+}
+#copyright {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  #copyright {
+    display: block;
+    width: 100%;
+    height: ;
+    float: left;
+    margin-top: 10px;
+  }
+}
+#copyright p {
+  font-family: 'RaleWay';
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+  padding-left: 20px;
+}
+#content {
+  width: 100%;
+  height: ;
+  background-color: ;
+  float: left;
+  margin-top: 20px;
+}
+@media screen and (min-width: 1200px) {
+  #content {
+    width: 69.834%;
+  }
+}
+#content .wrapper {
+  width: 94%;
+  margin: 0px auto;
+}
+@media screen and (min-width: 515px) and (max-width: 748px) {
+  #content .wrapper {
+    width: 468px;
+    max-width: 94%;
+  }
+}
+@media screen and (min-width: 749px) and (max-width: 982px) {
+  #content .wrapper {
+    width: 702px;
+  }
+}
+@media screen and (min-width: 983px) and (max-width: 1199px) {
+  #content .wrapper {
+    width: 936px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #content .wrapper {
+    width: 702px;
+  }
+}
+.content-item {
+  width: 224px;
+  height: 176px;
+  margin: 0px auto 10px auto;
+  font-size: 0px;
+  position: relative;
+}
+@media screen and (min-width: 515px) and (max-width: 748px) {
+  .content-item {
+    margin: 0px 5px 10px 5px;
+    float: left;
+  }
+}
+@media screen and (min-width: 749px) and (max-width: 982px) {
+  .content-item {
+    margin: 0px 5px 10px 5px;
+    float: left;
+  }
+}
+@media screen and (min-width: 983px) and (max-width: 1199px) {
+  .content-item {
+    margin: 0px 5px 10px 5px;
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .content-item {
+    margin: 0px 5px 10px 5px;
+    float: left;
+  }
+}
+.content-item:hover, .content-item:focus, .content-item:active {
+  font-size: 16px;
+}
+.content-item .container {
+  margin: 0;
+  background: ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.content-item .container h1 {
+  font-weight: 700;
+  font-family: 'Raleway', 'bold';
+}
+.content-item .container h2 {
+  font-weight: 400;
+  font-family: 'Raleway', 'lightexpanded';
+}
+.content-item .container p {
+  font-weight: 200;
+  font-family: 'Raleway', 'ultralight';
+}
+.content-item .container span {
+  font-weight: ;
+  font-family: 'Raleway', 'ultralight';
+}
+.content-item .container i {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.content-item .container i:hover,  .content-item .container i:focus, .content-item .container i:active {
+  color: white;
+}
+.content-item .container a:link {
+  text-decoration: none;
+}
+.item09 {
+  background-image: url(../img/05.jpg);
+}
+.bk {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ver {
+  height: 362px !important;
+}
+@media screen and (min-width: 515px) and (max-width: 748px) {
+  .hor {
+    width: 458px!important;
+  }
+}
+@media screen and (min-width: 749px) and (max-width: 982px) {
+  .hor {
+    width: 458px!important;
+  }
+}
+@media screen and (min-width: 983px) and (max-width: 1199px) {
+  .hor {
+    width: 458px!important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hor {
+    width: 458px!important;
+  }
+}
+@media screen and (min-width: 515px) and (max-width: 748px) {
+  .negtop {
+    margin-top: -186px;
+  }
+}
+@media screen and (min-width: 749px) and (max-width: 982px) {
+  .negtop {
+    margin-top: -186px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .negtop {
+    margin-top: -186px;
+  }
+}
+@media screen and (min-width: 515px) and (max-width: 748px) {
+  .negtop2 {
+    margin-top: ;
+  }
+}
+@media screen and (min-width: 749px) and (max-width: 982px) {
+  .negtop2 {
+    margin-top: -186px;
+  }
+}
+@media screen and (min-width: 983px) and (max-width: 1199px) {
+  .negtop2 {
+    margin-right: 486px;
+    margin-top: -186px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .negtop2 {
+    margin-top: -186px;
+  }
+}
+@media screen and (min-width: 983px) and (max-width: 1199px) {
+  .negtop3 {
+    margin-left: 473px;
+    margin-top: -186px;
+  }
+}
+.content-item .container a.contactus {
+  text-decoration: none;
+  color: white;
+}
+.content-item .container a.contactus:hover, .content-item .container a.contactus:focus, .content-item .container a.contactus:active {
+  color: #F4FFAB;
+}
+.line-fa {
+  line-height: 120%;
+}
+#contact {
+  margin-top: 15px;
+}
+#contact h2 {
+  font-family: 'Raleway', 'bold';
+  font-size: 21px;
+  font-weight: 400;
+}
+#contact h3 {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#contact form {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+}
+#contact form input {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+  width: 60%;
+  max-width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: ;
+}
+#contact form input[type=submit] {
+  padding: 5px 15px;
+  background: #784d5b;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  color: white;
+}
+#contact form input[type=submit]:hover, #contact form input[type=submit]:focus, #contact form input[type=submit]:active {
+  color: yellow;
+}
+#contact form textarea {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+  width: 60%;
+  max-width: 400px;
+  height: 90px;
+  padding: 10px;
+}
+#meet {
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+#meet h3 {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#meet p {
+  margin-bottom: 10px;
+}
+#postcard {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+#postcard h2 {
+  font-family: 'Raleway', 'bold';
+  font-size: 21px;
+  font-weight: 400;
+}
+#postcard h3 {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#postcard form {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+}
+#postcard form span {
+  color: darkviolet;
+  font-size: 21px;
+}
+#postcard form input {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+  width: 60%;
+  max-width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: ;
+}
+#postcard form select {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+  width: 69%;
+  max-width: 225px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: ;
+}
+#postcard form input[type=submit] {
+  padding: 5px 15px;
+  background: #784d5b;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  color: white;
+}
+#postcard form input[type=submit]:hover, #postcard form input[type=submit]:focus, #postcard form input[type=submit]:active {
+  color: yellow;
+}
+#postcard form textarea {
+  font-family: 'Raleway', 'lightexpanded';
+  font-weight: 400;
+  color: ;
+  width: 60%;
+  max-width: 400px;
+  height: 90px;
+  padding: 10px;
+}
+#postcard form textarea:nth-of-type(1) {
+  height: 45px !important;
+}
+#exh-info {
+  text-align: center;
+}
+#exh-info div {
+  width: 224px;
+  height: 176px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+#exh-info h2 {
+  font-family: 'Raleway', 'bold';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#exh-info h3 {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+#artist-info {
+  text-align: center;
+}
+#artist-info div {
+  width: 128px;
+  height: 128px;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border: ;
+  margin-top: 40px;
+}
+#artist-info h3 {
+  font-family: 'Raleway', 'bold';
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#artist-info h4 {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+#gallery-info {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#gallery-info div {
+  width: 96px;
+  height: 96px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border: ;
+  margin-top: 40px;
+}
+#gallery-info h3 {
+  font-family: 'Raleway', 'bold';
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#gallery-info h4 {
+  font-family: 'Raleway', 'lightexpanded';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}

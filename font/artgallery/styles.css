@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "artgallery";
+  src:url("fonts/artgallery.eot");
+  src:url("fonts/artgallery.eot?#iefix") format("embedded-opentype"),
+    url("fonts/artgallery.woff") format("woff"),
+    url("fonts/artgallery.ttf") format("truetype"),
+    url("fonts/artgallery.svg#artgallery") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "artgallery" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "artgallery" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pet68:before {
+  content: "a";
+}
+.icon-phone378-1:before {
+  content: "b";
+}
+.icon-postcard3:before {
+  content: "c";
+}
+.icon-faaa-02:before {
+  content: "d";
+}
+.icon-ennn-01:before {
+  content: "e";
+}

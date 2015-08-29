@@ -713,6 +713,10 @@ table {
 .line-fa {
   line-height: 120%;
 }
+.padd {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 #contact {
   margin-top: 15px;
 }

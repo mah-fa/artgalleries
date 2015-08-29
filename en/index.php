@@ -56,7 +56,7 @@
         <div class="wrapper">
 <!--            item-01 size:224*362 vertical-->
             <div class="content-item bk hvr-sweep-to-right ver" style="background-image: url(../img/a1.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>Dakaadak</h1>
                     <h2>Mahshid Razmara</h2>
                     <P><span>Mehrva Art Gallery</span> | 21-31 August</P>
@@ -68,7 +68,7 @@
             </div>
 <!--            item-02 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/01.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>Tea With U</h1>
                     <h2>Mahsa Nikoo</h2>
                     <P><span>Mehrva Gallery</span> | 11-21 july</P>
@@ -80,7 +80,7 @@
             </div>
 <!--            item-03 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/03.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>Portrait Of Her</h1>
                     <h2>Roja Mo'tamed</h2>
                     <P><span>Shirin Gallery</span> | 10-23 july</P>
@@ -92,7 +92,7 @@
             </div>
 <!--            item-04 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/04.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>No-Water</h1>
                     <h2>Nima Kamali</h2>
                     <P><span>abi Gallery</span> | 12-27 july</P>
@@ -104,7 +104,7 @@
             </div>
 <!--            item-05 size:224*362 vertical-->
             <div class="content-item bk hvr-sweep-to-right ver" style="background-image: url(../img/02.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>(W/L)ife</h1>
                     <h2>Ata Mohammadi</h2>
                     <P><span>Boom Gallery</span> | 8-19 july</P>
@@ -116,7 +116,7 @@
             </div>
 <!--            item-06 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right negtop" style="background-image: url(../img/01.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>Tea With U</h1>
                     <h2>Mahsa Nikoo</h2>
                     <P><span>Mehrva Gallery</span> | 11-21 july</P>
@@ -128,7 +128,7 @@
             </div>
 <!--            item-07 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/03.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>Portrait Of Her</h1>
                     <h2>Roja Mo'tamed</h2>
                     <P><span>Shirin Gallery</span> | 10-23 july</P>
@@ -140,7 +140,7 @@
             </div>
 <!--            item-08 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right negtop2" style="background-image: url(../img/04.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>No-Water</h1>
                     <h2>Nima Kamali</h2>
                     <P><span>abi Gallery</span> | 12-27 july</P>
@@ -152,7 +152,7 @@
             </div>
 <!--            item-09 size:458*176 horizontal-->
             <div class="content-item bk hvr-sweep-to-right hor negtop3" style="background-image: url(../img/05.jpg);">
-                <div class="container">
+                <div class="container padd">
                     <h1>No-Water</h1>
                     <h2>Nima Kamali</h2>
                     <P><span>abi Gallery</span> | 12-27 july</P>

@@ -62,7 +62,7 @@
         <div class="wrapper">
 <!--            item-01 size:224*362 vertical-->
             <div class="content-item bk hvr-sweep-to-right ver" style="background-image: url(../img/a1.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>دَکادَک</h1>
                     <h2>مهشید رزم‌آرا</h2>
                     <P><span>گالری مهروا</span> | 30 مرداد - 9 شهریور</P>
@@ -74,7 +74,7 @@
             </div>
 <!--            item-02 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/01.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>تلخ چای</h1>
                     <h2>مهسا نیکو</h2>
                     <P><span>گالری مهروا</span> | 11-21 مرداد</P>
@@ -86,7 +86,7 @@
             </div>
 <!--            item-03 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/03.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>پرتره زنی که دوستش داشتم</h1>
                     <h2>روژا معتمد</h2>
                     <P><span>گالری شیرین</span> | 10-23 مرداد</P>
@@ -98,7 +98,7 @@
             </div>
 <!--            item-04 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/04.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>آبی نیست</h1>
                     <h2>نیما کمالی</h2>
                     <P><span>گالری سیحون</span> | 12-27 مرداد</P>
@@ -110,7 +110,7 @@
             </div>
 <!--            item-05 size:224*362 vertical-->
             <div class="content-item bk hvr-sweep-to-right ver" style="background-image: url(../img/02.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>زنی در میان جمع</h1>
                     <h2>هادی محمدی</h2>
                     <P><span>گالری بوم</span> | 7-19 مرداد</P>
@@ -122,7 +122,7 @@
             </div>
 <!--            item-06 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right negtop" style="background-image: url(../img/01.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>تلخ چای</h1>
                     <h2>مهسا نیکو</h2>
                     <P><span>گالری مهروا</span> | 11-21 مرداد</P>
@@ -134,7 +134,7 @@
             </div>
 <!--            item-07 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right" style="background-image: url(../img/03.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>پرتره زنی که دوستش داشتم</h1>
                     <h2>روژا معتمد</h2>
                     <P><span>گالری شیرین</span> | 10-23 مرداد</P>
@@ -146,7 +146,7 @@
             </div>
 <!--            item-08 size:224*176-->
             <div class="content-item bk hvr-sweep-to-right negtop2" style="background-image: url(../img/04.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>آبی نیست</h1>
                     <h2>نیما کمالی</h2>
                     <P><span>گالری سیحون</span> | 12-27 مرداد</P>
@@ -158,7 +158,7 @@
             </div>
 <!--            item-09 size:458*176 horizontal-->
             <div class="content-item bk hvr-sweep-to-right hor negtop3" style="background-image: url(../img/05.jpg);">
-                <div class="container" dir="rtl">
+                <div class="container padd" dir="rtl">
                     <h1>کرانه‌های مردمان دوردست</h1>
                     <h2>ستاره محبی</h2>
                     <P><span>گالری مهیا</span> | 12-27 مرداد</P>

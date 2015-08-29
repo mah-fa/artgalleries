@@ -8,10 +8,8 @@
     <meta name="description" content="ارسال کارت‌پستالِ گالری‌ها و نمایشگاه‌های هنری به دوستان">
     <meta name="author" content="مهدی فرنگ">
     <link rel="icon" href="../img/fav-ArtGalleries.gif" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="../css/reset.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/hover.css" media="all">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>

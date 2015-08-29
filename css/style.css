@@ -397,11 +397,15 @@ table {
     color: white;
   }
 }
-.menu-item a:hover {
+.menu-item a:hover,
+.menu-item a:focus,
+.menu-item a:active {
   text-decoration: none;
 }
 @media screen and (min-width: 1200px) {
-  .menu-item a:hover {
+  .menu-item a:hover,
+  .menu-item a:focus,
+  .menu-item a:active {
     color: #F4FFAB;
   }
 }
@@ -487,7 +491,9 @@ table {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
 }
-#follow p a:hover {
+#follow p a:hover,
+#follow p a:focus,
+#follow p a:active {
   text-decoration: none;
   color: #ffffff;
 }
@@ -581,7 +587,9 @@ table {
     float: left;
   }
 }
-.content-item:hover {
+.content-item:hover,
+.content-item:focus,
+.content-item:active {
   font-size: 16px;
 }
 .content-item .container {
@@ -613,7 +621,9 @@ table {
   margin-right: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
-.content-item .container i:hover {
+.content-item .container i:hover,
+.content-item .container i:focus,
+.content-item .container i:active {
   color: white;
 }
 .content-item .container a:link {
@@ -695,7 +705,9 @@ table {
   text-decoration: none;
   color: white;
 }
-.content-item .container a.contactus:hover {
+.content-item .container a.contactus:hover,
+.content-item .container a.contactus:focus,
+.content-item .container a.contactus:active {
   color: #F4FFAB;
 }
 .line-fa {
@@ -744,7 +756,9 @@ table {
   width: 80px;
   color: white;
 }
-#contact form input[type=submit]:hover {
+#contact form input[type=submit]:hover,
+#contact form input[type=submit]:focus,
+#contact form input[type=submit]:active {
   color: yellow;
 }
 #contact form textarea {
@@ -829,7 +843,9 @@ table {
   width: 80px;
   color: white;
 }
-#postcard form input[type=submit]:hover {
+#postcard form input[type=submit]:hover,
+#postcard form input[type=submit]:focus,
+#postcard form input[type=submit]:active {
   color: yellow;
 }
 #postcard form textarea {
